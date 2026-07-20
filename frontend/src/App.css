@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #f4f7fc;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #2563eb, #1d4ed8);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  width: 90%;
+  margin: 30px auto;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.15);
+}
+
+.card h2 {
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  font-size: 17px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #1d4ed8;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th {
+  background: #2563eb;
+  color: white;
+  padding: 12px;
+}
+
+table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+table tr:hover {
+  background: #f2f2f2;
+}
+
+.edit-btn,
+.delete-btn {
+  border: none;
+  padding: 8px 15px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  margin: 3px;
+}
+
+.edit-btn {
+  background: #f59e0b;
+}
+
+.edit-btn:hover {
+  background: #d97706;
+}
+
+.delete-btn {
+  background: #dc2626;
+}
+
+.delete-btn:hover {
+  background: #b91c1c;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+
+  table {
+    font-size: 14px;
+  }
+
+  .edit-btn,
+  .delete-btn {
+    width: 100%;
+    margin-top: 5px;
+  }
+}
